@@ -1,0 +1,27 @@
+{
+	"name": "arc-topromise",
+	"version": "1.0.0",
+	"description": "Convert a function to promise",
+	"main": "index.js",
+	"scripts": {
+	"test": "mocha test"
+	},
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/ARitz-Cracker/node-topromise.git"
+	},
+	"keywords": [
+		"function",
+		"promise"
+	],
+	"author": "Aritz Beobide-Cardinal",
+	"license": "MIT",
+	"bugs": {
+	"url": "https://github.com/ARitz-Cracker/node-topromise/issues"
+	},
+	"homepage": "https://github.com/ARitz-Cracker/node-topromise",
+	"devDependencies": {
+	"mocha": "^3.2.0",
+	"should": "^11.1.2"
+	}
+}
