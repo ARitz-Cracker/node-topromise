@@ -1,7 +1,7 @@
 {
 	"name": "arc-topromise",
-	"version": "1.0.0",
-	"description": "Convert a function to promise",
+	"version": "1.0.1",
+	"description": "Convert a callback function to a promise function",
 	"main": "index.js",
 	"scripts": {
 	"test": "mocha test"
