@@ -2,7 +2,7 @@
 
 A NodeJS library that works not-unlike util.promisify except it supports multiple callback arguments and also handles "this"
 
-##USAGE:
+## USAGE:
 
 `npm install arc-topromise`
 
@@ -20,7 +20,7 @@ func(arg,(err,arg1,arg2,arg3) => {
 
 ```
 
-##EXAMPLE:
+## EXAMPLE:
 
 ```js
 let mysql = require('mysql'); //Just using this as an example
@@ -32,5 +32,5 @@ let connection = mysql.createConnection({
 });
 
 await tp.ToPromise(connection,connection.connect);
-let results = (await tp.ToPromiseArray(connection.query,'SELECT 1 + 1 AS solution'))[0];
+let results = (await tp.ToPromiseArray(connection,connection.query,'SELECT 1 + 1 AS solution'))[0];
 ```
