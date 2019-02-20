@@ -1,11 +1,9 @@
 {
 	"name": "arc-topromise",
-	"version": "1.0.1",
+	"version": "1.0.3",
 	"description": "Convert a callback function to a promise function",
 	"main": "index.js",
-	"scripts": {
-	"test": "mocha test"
-	},
+	"scripts": {},
 	"repository": {
 		"type": "git",
 		"url": "git+https://github.com/ARitz-Cracker/node-topromise.git"
@@ -20,8 +18,5 @@
 	"url": "https://github.com/ARitz-Cracker/node-topromise/issues"
 	},
 	"homepage": "https://github.com/ARitz-Cracker/node-topromise",
-	"devDependencies": {
-	"mocha": "^3.2.0",
-	"should": "^11.1.2"
-	}
+	"devDependencies": {}
 }
